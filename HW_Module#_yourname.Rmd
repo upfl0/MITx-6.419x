@@ -1,22 +1,21 @@
 ---
 title: \vspace{-2cm} \LARGE Written Report – 6.419x Module 1 \vspace{-0.5cm}
-author: username
+author: florian_rumpf
 output:
   pdf_document: 
     latex_engine: xelatex
   word_document: default
 mainfont: Times New Roman
-sansfont: Times New Roman
-monofont: Times New Roman
-mathfont: Times New Roman
 fontsize: 11pt
+header-includes:
+  - \usepackage{amsmath}
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-### Problem 1
-_(2 points) How would you run a randomized controlled double-blind experiment to determine the effectiveness of the vaccine? Write down procedures for the experimenter to follow. (Maximum 200 words)_
+# Problem 1.1
+_1. (2 points) How would you run a randomized controlled double-blind experiment to determine the effectiveness of the vaccine? Write down procedures for the experimenter to follow. (Maximum 200 words)_
 
 __Solution:__ This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
@@ -26,7 +25,7 @@ Write your answer in a brief and clear language. In addition, you should add all
 summary(cars)
 ```
 
-### Including Plots
+# Including Plots
 
 You can also embed plots, for example:
 
@@ -40,7 +39,7 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 \newpage
 
-### References
+# References
 [1] R. L. Wasserstein and N. A. Lazar, “The ASA statement on p-values: context, process, and purpose,” The American Statistician, vol. 70, no. 2, pp. 129-133, 2016.
 
 [2] B. Gustavii, How to write and illustrate a scientific paper, Cambridge University Press, 2017.
